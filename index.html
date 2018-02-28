@@ -331,78 +331,19 @@
       
         
           
-            <h1 id="Markdown学习记录"><a href="#Markdown学习记录" class="headerlink" title="Markdown学习记录"></a>Markdown学习记录</h1><blockquote>
-<p>记录时间：2017年8月29日，总结Markdown常用的语法，如需转载请标注来源 <a href="mailto:ygkn1992@vip.qq.com" target="_blank" rel="noopener">ygkn1992@vip.qq.com</a></p>
-</blockquote>
-<h3 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h3><p>在标题内容前使用对应等级的#，#与标题内容之间用空格分开是标准语法。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line"></span><br><span class="line">## 二级标题</span><br><span class="line"></span><br><span class="line">### 三级标题</span><br><span class="line"></span><br><span class="line">#### 四级标题</span><br><span class="line"></span><br><span class="line">##### 五级标题</span><br><span class="line"></span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="二、列表"><a href="#二、列表" class="headerlink" title="二、列表"></a>二、列表</h3><p>在文字前使用- 或 * 即是无序列表，使用 1. 2. 即是有序列表。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 第一个</span><br><span class="line">* 第二个</span><br><span class="line">* 第三个</span><br></pre></td></tr></table></figure>
-<ul>
-<li>第一个</li>
-<li>第二个</li>
-<li>第三个</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 第一个</span><br><span class="line">2. 第二个</span><br><span class="line">3. 第三个</span><br></pre></td></tr></table></figure>
-<ol>
-<li>第一个</li>
-<li>第二个</li>
-<li>第三个</li>
-</ol>
-<h3 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用</h3><p>在文字前使用 &gt; 大于号实现引用效果，引用可以嵌套</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 相关引用内容</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>相关引用内容</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; 相关引用内容</span><br><span class="line">&gt;&gt;内容消息</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>相关引用内容</p>
-<blockquote>
-<p>内容消息</p>
-</blockquote>
-</blockquote>
-<h3 id="四、图片与链接"><a href="#四、图片与链接" class="headerlink" title="四、图片与链接"></a>四、图片与链接</h3><p>采用[链接名称](地址)表示链接，采用![图片名称](地址)表示图片</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[百度](https://www.baidu.com)</span><br><span class="line"></span><br><span class="line">![百度LOGO](https://www.baidu.com/img/bd_logo1.png)</span><br></pre></td></tr></table></figure>
-<p><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></p>
-<p><img src="https://www.baidu.com/img/bd_logo1.png" alt="百度LOGO"></p>
-<h3 id="五、代码块"><a href="#五、代码块" class="headerlink" title="五、代码块"></a>五、代码块</h3><p>使用`前后包裹一行代码，或者使用```上下包裹代码块，使用tab缩进</p>
-<p><code>public static void main(String[] args){}</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public static void main(String[] args)&#123;</span><br><span class="line"></span><br><span class="line">    System.out.println(&quot;hello world&quot;);</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="六、粗体与斜体"><a href="#六、粗体与斜体" class="headerlink" title="六、粗体与斜体"></a>六、粗体与斜体</h3><p>使用**包裹文本是粗体，使用*包裹文本是斜体</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**一段粗体的文本**</span><br></pre></td></tr></table></figure>
-<p><strong>一段粗体的文本</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*一段斜体的文本*</span><br></pre></td></tr></table></figure>
-<p><em>一段斜体的文本</em></p>
-<h3 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h3><p>使用|分割表示表格，:用来调整水平方向。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|姓名   |年龄   |</span><br><span class="line">|:-----:|:-----:|</span><br><span class="line">|小明   |18     |</span><br><span class="line">|小红   |20     |</span><br><span class="line">|小黑   |15     |</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">姓名</th>
-<th style="text-align:center">年龄</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">小明</td>
-<td style="text-align:center">18</td>
-</tr>
-<tr>
-<td style="text-align:center">小红</td>
-<td style="text-align:center">20</td>
-</tr>
-<tr>
-<td style="text-align:center">小黑</td>
-<td style="text-align:center">15</td>
-</tr>
-</tbody>
-</table>
-<h3 id="八、分割线"><a href="#八、分割线" class="headerlink" title="八、分割线"></a>八、分割线</h3><p>***实现</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">***</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>本文使用Markdown编写，以上只是总结Markdown日常使用的一些基础语法，还有一些语法以及其他内容下次再总结。</p>
+          Markdown学习记录
+记录时间：2017年8月29日，总结Markdown常用的语法，如需转载请标注来源 ygkn1992@vip.qq.com
 
-          
+一、标题在标题内容前使用对应等级的#，#与标题内容之间用空格分开是标准语法。
+1234567891011# 一级标题## 二级标题### 三级标题#
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/02/24/学习记录/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
